@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ 
+<head bgcolor="#E6E6FA">
+    <title>Sosio Internship</title>
+ 
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+	
+	<style>
+	
+	body {background-color: #F5F5DC;}
+	
+	h1 {
+    color: #696969;
+    font-family: verdana;
+    font-size: 300%;
+	}
+	
+	</style>
+ 
+</head>
+ 
+<body>
+<div class="container">
+  <h1>Interview Questions </h1>
+  <form role="form" action = "http://localhost:5000/result" method = "POST">
+    <div class="form-group">
+      <label for="one"> Why would you want to work with a young energetic team?</label>
+      <input type="txt" class="form-control" name="q1" placeholder="Enetr Your Answer">
+    </div>
+	<div class="form-group">
+      <label for="two"> What is your definition of an ideal work place?</label>
+      <input type="txt" class="form-control" name="q2" placeholder="Enetr Your Answer">
+    </div>
+    <div class="form-group">
+      <label for="three"> Do you prefer front-end/back-end?</label>
+      <input type="txt" class="form-control" name="q3" placeholder="Enetr Your Answer">
+    </div>
+    <div class="form-group">
+      <label for="four"> What is the time duration that you will be available?</label>
+      <input type="txt" class="form-control" name="q4" placeholder="Enetr Your Answer">
+    </div>
+    <div class="form-group">
+      <label for="five">Going forward, what is the kind of company that you aspire to work at?</label>
+      <input type="txt" class="form-control" name="q5" placeholder="Enetr Your Answer">
+    </div>
+    
+    
+    <button type="submit" class="btn btn-default" value="ubmit">Submit Your Answers</button>
+  </form>
+</div>
+
+
+</body>
+ 
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<style>
+  body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F5F5DC;  
+  }
+  
+  h1 {
+    color: #696969;
+    font-family: verdana;
+    font-size: 300%;
+	}
+  
+  </style>
+</head>
+   <body>
+	<h1 align="center">Your Answers</h1>
+      <table border = 1 align="center">
+		<tr>
+			<th>Question No:</th>
+			<th>Answer:</th>
+			
+		</tr>
+         {% for key, value in result.iteritems() %}
+         
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+            
+         {% endfor %}
+      </table>
+      
+   </body>
+</html>
